@@ -21,6 +21,8 @@
 
 ![List to Tree](https://raw.githubusercontent.com/guopenghui/obsidian-text-compiler/master/public/list_to_tree.png)
 
+![List to Tree](https://raw.githubusercontent.com/guopenghui/obsidian-text-compiler/master/public/list_to_tree.gif)
+
 ### 安装方法
 1. 直接在release里面下载.
 2. 用BRAT插件.

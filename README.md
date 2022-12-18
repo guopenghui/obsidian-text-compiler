@@ -20,6 +20,8 @@ Select `list to text`，and you will get:
 
 ![List to Tree](https://raw.githubusercontent.com/guopenghui/obsidian-text-compiler/master/public/list_to_tree.png)
 
+![List to Tree](https://raw.githubusercontent.com/guopenghui/obsidian-text-compiler/master/public/list_to_tree.gif)
+
 ### Way to install
 1. Download release.
 2. Use BRAT.
