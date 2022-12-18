@@ -1,24 +1,25 @@
-## Develop your own plugins with Vue3
+## Obsidian Text Compiler
 
+Compile your text to generate another.
+You can add custom function to generate complex text with simple notation, speeding up you writing.
 
-## Init steps
+[中文文档](https://github.com/guopenghui/obsidian-text-compiler/blob/master/README-CN.md)
 
-1. Clone this repository to your `.obsidian\plugins` directory, and move into it.
+**You need know a little bit about javascript**.
 
-2. Run `npm install` to install all the stuff you need, Including: 
-   + vue3 sfc support
-   + vue3 tsx support
-   + typescript
-   + esbuild
+### Usage
+1. Add your compiler function, which is a javascript function requiring a string parameter and returning a string, in setting panel.
+2. Trigger command `get compiler` in command panel.
+3. Input your compiler name and select it.
+4. Input text and get output. Click `Copy` to copy the output to clipboard.
 
-3. Run `npm run dev` to compile code and generate a `main.js`, which is the final output. Your `main.js` will be updated simultaneously with the change of your source code files.
+### Example
+There is an built-in example in this plugin and can not be deleted.
 
-If above steps work, you can turn on 'Vue Template' plugin in Obsidian. Click the *dice* like button on the left ribbon, a new tab will open on the right and says *"Hello,Developer!"*.
+Select `list to text`，and you will get: 
 
-4. When you get ready to build a release, run `npm run build` to create it. This will remove all codemaps and minify code size.
+![List to Tree](https://raw.githubusercontent.com/guopenghui/obsidian-text-compiler/master/public/list_to_tree.png)
 
-
-
-## Notice
-
-+ [hot-reload](https://forum.obsidian.md/t/plugin-release-for-developers-hot-reload-the-plugin-s-youre-developing/12185) plugin may be very helpful in your developing. It reloads the plugin whose `main.js` file changes, so you don't need do it yourself every time you make changes to code.
+### Way to install
+1. Download release.
+2. Use BRAT.

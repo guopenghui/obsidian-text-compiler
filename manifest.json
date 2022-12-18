@@ -1,9 +1,9 @@
 {
-	"id": "obsidian-vue-template",
-	"name": "Vue Template",
+	"id": "obsidian-text-compiler",
+	"name": "Text Compiler",
 	"version": "0.0.1",
-	"minAppVersion": "0.12.0",
-	"description": "for test",
+	"minAppVersion": "1.0.0",
+	"description": "compile text to another format",
 	"author": "the_tree",
 	"authorUrl": "",
 	"isDesktopOnly": true
