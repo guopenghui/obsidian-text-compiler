@@ -1,7 +1,7 @@
 {
 	"id": "obsidian-text-compiler",
 	"name": "Text Compiler",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"minAppVersion": "1.0.0",
 	"description": "compile text to another format",
 	"author": "the_tree",
