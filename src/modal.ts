@@ -50,7 +50,7 @@ class CompilerModal extends Modal {
 
         if (this.compiler.example) {
             inputEl.value = this.compiler.example;
-            showEl.innerHTML = this.compiler.engine(this.compiler.example);
+            showEl.innerText = this.compiler.engine(this.compiler.example);
         }
 
         const modalSelf = this;
@@ -64,9 +64,9 @@ class CompilerModal extends Modal {
                 this.selectionStart = this.selectionEnd = start + 4;
             }
             try {
-                showEl.innerHTML = modalSelf.compiler.engine(inputEl.value);
+                showEl.innerText = modalSelf.compiler.engine(inputEl.value);
             } catch (e) {
-                showEl.innerHTML = "Compiler Error";
+                showEl.innerText = "Compiler Error";
             }
         });
 
